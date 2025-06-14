@@ -2,7 +2,7 @@
 
 AI-powered web app that summarizes YouTube videos into clean, readable bullet points and headings — instantly.
 
-##Demo
+Demo
 https://youtu.be/pcgvxuKzWIc
 
 ## 🚀 Features
