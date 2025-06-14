@@ -33,7 +33,7 @@ def summary():
         return jsonify({'error': str(e)}), 500
     
 def gemini_summary(transcipt):
-    prompt = ("Summarize this Youtube transcipt into clear concise paragraphs on the main points.\n\n"f"{transcipt}")
+    prompt = ("Summarize this Youtube transcipt into clear concise paragraphs on the main points using headers and bullet points .\n\n"f"{transcipt}")
     
     model = genai.GenerativeModel('models/gemini-1.5-flash')
     response = model.generate_content(prompt)
